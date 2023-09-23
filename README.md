@@ -5,6 +5,7 @@ See steps below.
 
 # PREREQUISITES
 Install CLI (=Command Line Interface) of MediaInfo.
+
 ![MediaInfoInstallCLI](images/MediaInfoInstallCLI.jpg)
 
 ## CREATE AUTOMATOR SCRIPT
