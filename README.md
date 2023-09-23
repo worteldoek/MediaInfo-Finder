@@ -4,7 +4,9 @@ Finder Toolbar app to open MediaInfo of selected video in Terminal.
 See steps below.
 
 # PREREQUISITES
-Install CLI (=Command Line Interface) of MediaInfo.
+Install MediaInfo CLI.
+
+Make sure you download the CLI (=Command Line Interface).
 
 ![MediaInfoInstallCLI](images/MediaInfoInstallCLI.jpg)
 
