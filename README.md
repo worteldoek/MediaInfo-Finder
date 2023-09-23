@@ -1,7 +1,8 @@
 # MediaInfo-Finder
-Finder Toolbar app to show MediaInfo in Terminal
+Finder Toolbar app to open MediaInfo of selected video in Terminal.
 
-Steps:
+See steps below.
+
 ## Create Automator Script
 1. Start Automator.
 2. Create New docoment with cmd+n (or from the menu bar: File -> New).
@@ -25,11 +26,16 @@ end tell
 ```
 8. Save it as 'OpenwithMediaInfo.app' in your Applications folder.
 
+![Automator](images/Automator.jpg)
+
 ## Add OpenWithMediaInfo icon to the app
 1. Copy (cmd+c) "OpenWithMediaInfo-icon.png".
 2. Select the OpenWithMediaInfo.app in your Applications folder and press cmd+i to open the app info window.
 3. Click the small icon in the top.
 4. Paste with cmd+v.
+
+![AddIcon](images/AddIcon.jpg)
+
 
 ## Add OpenWithMediaInfo app to your Finder Toolbar
 1. Open two Finder windows.
@@ -37,3 +43,4 @@ end tell
 3. Use the other window to navigate to your Applications folder.
 4. Drag the MediaInfoScript.app to the Toolbar.
 
+![AddToToolbar](images/AddToToolbar.gif)
