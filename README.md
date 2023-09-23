@@ -31,7 +31,7 @@ tell application "Terminal"
     do script "mediainfo " & myitem in window 1
 end tell
 ```
-8. Save it as 'OpenwithMediaInfo.app' in your Applications folder.
+8. Save it as 'OpenWithMediaInfo.app' in your Applications folder.
 
 ![Automator](images/Automator.jpg)
 
