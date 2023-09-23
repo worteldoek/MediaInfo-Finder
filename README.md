@@ -23,16 +23,17 @@ tell application "Terminal"
     do script "mediainfo " & myitem in window 1
 end tell
 ```
-8. Save it as 'MediaInfoScript.app' in your Applications folder.
+8. Save it as 'OpenwithMediaInfo.app' in your Applications folder.
 
-## Add MediaInfoScript icon to the app
-1. Copy (cmd+c) "MediaInfo-script-icon.png".
-2. Select the MediaInfoScript.app in your Applications folder and press cmd+i to open the app info window.
+## Add OpenWithMediaInfo icon to the app
+1. Copy (cmd+c) "OpenWithMediaInfo-icon.png".
+2. Select the OpenWithMediaInfo.app in your Applications folder and press cmd+i to open the app info window.
 3. Click the small icon in the top.
 4. Paste with cmd+v.
 
-## Add MediaInfoScript app to your Finder Toolbar
+## Add OpenWithMediaInfo app to your Finder Toolbar
 1. Open two Finder windows.
 2. Right click toolbar -> Customise Toolbar (your toolbar items will start shaking).
 3. Use the other window to navigate to your Applications folder.
 4. Drag the MediaInfoScript.app to the Toolbar.
+
